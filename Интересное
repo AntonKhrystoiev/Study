@@ -1,0 +1,72 @@
+Разворачивание ссылок (а так же различных тегов) в Саблайме с помощью Эммет:
+a[href="#"]{Content $}*4
+a*4
+
+clearfix - что это и с чем едят (в виде псевдоэлемента, чтобы не писать в конце блок с clear: both;)
+
+Знать - способы позиционирования
+      - свойства обтекания
+      - способы выравнивания блоков
+      - работа с вложеностями с помощью сложных селекторов (CSS) отсутствие пробела; пробел; ~; >; +; (к примеру >*>* и тд)
+
+Основные свойства flex
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+Рыба HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+	<title>homeWork3</title>
+</head>
+<body>
+</body>
+</html>
+
+Рыба CSS:
+
+@import 'https://fonts.googleapis.com/css?family=Roboto:300';
+@import 'https://fonts.googleapis.com/css?family=PT+Sans';
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 62.5%;
+	color: #fff;
+}
+
+body {
+	background-color: #131a25;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+.center {
+	max-width: 960px;
+	padding: 0 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	margin: 0 auto;
+	position: relative;
+}

@@ -1,0 +1,34 @@
+Для выбора папки, которую необходимо загрузить на ГитХаб начинаю с команды ls. Эта команда позволяет мне, с помощью команды cd, последовательно, выбрать необходимую папку.
+
+В итоге я выбераю нужную мне директорию (папку, которую я хочу выгрузить на ГитХаб). (~/Projects/skill_up$ cd homeWork )
+
+(anton@PC:~$ ls
+ Desktop            Projects   Документы     Музыка          Шаблоны
+ examples.desktop   snap       Загрузки      Общедоступные
+ lesson-5           Видео      Изображения  'Рабочий стол'
+anton@PC:~$ cd Projects
+anton@PC:~/Projects$ ls
+ skill_up  'Инструкция Git'   Интересное
+anton@PC:~/Projects$ cd skill_up
+anton@PC:~/Projects/skill_up$ ls
+ front                          'homeWork4 (Табы)'
+'homeWork1(Ознакомление)'       'homeWork4 (Табы).zip'
+'homeWork2(Пример Хедера)'      'Вариант Тимофея с unput Tab'
+'homeWork3(Форма регистрации)'  'Видео уроков'
+anton@PC:~/Projects/skill_up$ ls
+ front   homeWork  'Вариант Тимофея с unput Tab'  'Видео уроков'
+anton@PC:~/Projects/skill_up$ cd homeWork)
+
+Далее запускаю Гит с помощью команды git init
+
+Просматриваю состояние директории командой git status
+
+С помощью команды git add . готовлю все документы и папки к комиту
+
+Просматриваю статус с помощью git status (отображаются, в консоле, все файлы, готовящиеся к загрузке)
+
+Далее делаю камит с помощью команды git commit -m "Init"  (отображаются все файлы)
+
+Далее следует команда git  remote add origin https://github.com/AntonKhrystoiev/Study.git (Где https... адрес репозитория на ГитХабе)
+
+И вводится команда git push origin master  После чего происходит загрузка всего в репозиторий на ГитХаб
