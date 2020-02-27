@@ -35,3 +35,14 @@ git remote add origin https://github.com/... добавить к локальн�
 git push origin master - загрузка изменений в облачный репозиторий (после git add . git kommit -m "")
 git pull origen - загружает изменения с облачного хранилища в локальный репозиторий (origen - используется на Убунте)
 
+
+		Ссылки ДЗ для препадователя на ГитХаб
+
+https://github.com/AntonKhrystoiev/homeWor_1.git
+
+https://github.com/AntonKhrystoiev/homeWork_2.git
+
+https://github.com/AntonKhrystoiev/homeWork_3.git
+
+https://github.com/AntonKhrystoiev/homeWork_4.git
+
